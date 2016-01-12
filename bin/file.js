@@ -10,7 +10,7 @@ module.exports = function (program, file) {
     let: true,
     defaultArguments: true,
     objectMethods: true,
-    objectPropertyShorthand: true
+    objectShorthands: true,
   };
 
   // When --no-classes used, disable classes transformer
